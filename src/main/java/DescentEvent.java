@@ -25,4 +25,12 @@ public class DescentEvent {
         String s = this.Seconds +"\t\t" + this.Velocity + " \t\t" + this.Fuel + " \t\t" + this.Altitude;
         return s;
     }
+
+    public int getSeconds() {
+        return Seconds;
+    }
+
+    public int getFuel() {
+        return Fuel;
+    }
 }
